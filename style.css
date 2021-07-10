@@ -6,6 +6,10 @@
     background-color: white;
     box-shadow: 1px 1px 15px gray;
 }
+.box:hover{
+    transform: scale(1.01);
+    transition: 0.5s ease-out;
+}
 nav{
     display: flex;
     justify-content: space-between;
